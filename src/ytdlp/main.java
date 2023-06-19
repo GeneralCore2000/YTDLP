@@ -9,6 +9,7 @@ public class main extends javax.swing.JFrame {
     public main() {
         initComponents();
         setLocationRelativeTo(null);
+        System.out.println("noob ka lolollol");
     }
 
     @SuppressWarnings("unchecked")
