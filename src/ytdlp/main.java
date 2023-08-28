@@ -9,7 +9,6 @@ public class main extends javax.swing.JFrame {
     public main() {
         initComponents();
         setLocationRelativeTo(null);
-        System.out.println("noob ka lolollol");
     }
 
     @SuppressWarnings("unchecked")
@@ -240,7 +239,6 @@ public class main extends javax.swing.JFrame {
             String link = "yt-dlp.exe --extract-audio -P C:\\Users\\Visitor\\Desktop " + LinkTextField.getText();
             String command = "cmd /c start " + link;
             Runtime.getRuntime().exec(command);
-
         } catch (Exception e) {
             System.out.println(e);
         }
